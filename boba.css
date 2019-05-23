@@ -1,0 +1,276 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* { box-sizing: border-box; }
+body{
+     background-color:black;
+     color:white;
+}
+
+nav{
+	background-color:black;
+	text-align: center;
+     max-height:200px;
+}
+
+.jumbotron {
+	 background-color:#FEF7E1;
+     color: black;
+     margin:2em;
+}
+
+.jumbotron h1 {
+     border: none;
+     text-align:center;
+     font-weight:bold;
+	 font-family: 'Maven Pro', sans-serif;
+}
+
+/*home css*/
+.home-nav{
+     text-align:center;
+     padding:1%;
+     margin-bottom:2%;
+     max-height:100px;
+     background-color:black;
+	font-family:'Maven Pro', sans-serif;
+}
+
+.home-nav img{
+     max-height:100px;
+     width:auto;
+}
+
+#navigation, .home-nav a{
+     background-color: black;
+     text-decoration: none;
+}
+
+#navigation a, .home-nav a {
+     color: #EDD8BB;
+	font-family:'Maven Pro', sans-serif;
+}
+
+#carouselExampleControls{
+     width:70%;
+     margin-left:auto;
+     margin-right:auto;
+     
+}
+
+.carousel-inner img {
+     max-height: 900px;
+}
+
+footer {
+     text-align: center;
+     font-style: italic;
+     color: #808080;
+}
+
+/*menu css*/
+.menu-table{
+     font-family: 'Roboto';   
+	margin:auto;
+	width:80%;
+}
+.menu-table li{
+	list-style: none;
+	padding: 1em;
+	font-size: 1.75em;
+	text-align: left;
+}
+.menu-table img{
+     margin:auto;
+     width: 15em;
+	height:11em;
+     display:block;
+     padding-bottom:1em;
+}
+.menu-heading {
+	 font-size: 3em;
+     color:#EDD8BB;
+     font-family: 'Poiret+One';
+	text-align: left;
+}
+
+/*about css*/
+td{
+     vertical-align:top;
+     padding:3em;
+}
+.about-content {
+	font-size: 1.5em;
+	text-align: center;
+    font-family: 'Roboto';
+}
+
+.about-heading{
+	 font-size: 3em;
+     color:#EDD8BB;
+     font-family: 'Poiret+One';
+}
+
+/*contact css*/
+#contact-content {
+     width: 80%;
+     margin: auto;
+     padding: 3em;
+}
+
+#contact-table td{
+     text-align:left;
+     vertical-align:middle;
+    font-family: 'Roboto';
+}
+#contact-heading{
+    font-size: 1.5em;
+     color:#EDD8BB;
+     font-family: 'Poiret+One';
+}
+td a{
+    color:steelblue;
+}
+td a:hover{
+    color:#EDD8BB;
+    text-decoration: none;
+}
+
+/*location css*/
+.locations-div table {
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+table tr th{
+     text-align:center;
+     padding-top:3em;
+     color:#EDD8BB;
+     font-family: 'Poiret+One';
+     font-size: 2em;
+}
+
+table tr td{
+     text-align:center;
+     font-family: 'Roboto';
+}
+
+.locations-div{
+     width:40%;
+     margin-left:auto;
+     margin-right:auto;
+     position:relative;
+     top:2em;
+}
+
+.locations-div img{
+     width:80%;
+     overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#location-search {
+     margin: 1em;
+     text-align: center;
+}
+
+/*merch css*/
+#merch-table {
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align:center;
+}
+#merch-table td{
+	font-size:1.25em;
+}
+.price{
+	color:#EDD8BB;
+}
+
+/* mobile responsve css */
+@media only screen and (max-width: 768px) {
+	body {
+        width:auto;
+		padding: 0;
+		margin: 0;
+		background-image: none;
+        font-size: 90%;
+	}
+	.jumbotron .display-4{
+		max-height:10px;
+		font-size:2em;
+	}
+        
+    
+	nav {
+		float: none;
+		width: auto;
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+	nav li {
+		display: inline-block;
+	}
+	nav a {
+		padding-right: 2em;
+	}  
+	.about-img {
+		max-height:12em;
+		max-width:12em;
+	}
+	iframe {
+		max-height:15em;
+		max-width:15em;
+	}
+	table tr td .about-content{
+		float: left;
+	}
+	.about-heading{
+		font-size:1.5em;
+	}
+	.about-content{
+		font-size: 1em;
+	}
+	#merch-table td img{
+		max-height:7em;
+		max-width:7em;
+	}
+	.locations-div img{
+		max-height:20em;
+		max-width:20em;
+	}
+	.locations-div {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.location-table tr th{
+		font-size:1em;
+		text-align:center;
+	}
+	.menu-table{ 
+		margin:auto;
+	}
+	.menu-table li{
+		padding: .5em;
+		font-size: 1em;
+	}
+	.menu-table img{
+		max-height: 8em;
+		max-width: 10em;
+		margin-left:0;
+		margin-right: 0;
+	}
+	.menu-heading {
+		font-size:2em;
+	}
+	footer {
+		margin: 0;
+	}
+}
+		
